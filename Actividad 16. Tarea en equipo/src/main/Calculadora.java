@@ -43,4 +43,8 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
+	@Override
+	public String toString() {
+		return "Calculadora [num1=" + num1 + ", num2=" + num2 + "]";
+	}
 }
