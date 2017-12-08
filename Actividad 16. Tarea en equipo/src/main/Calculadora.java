@@ -5,6 +5,12 @@ public class Calculadora {
 	private int num1;
 	private int num2;
 	
+	public int getNum1() {
+		return num1;
+	}
+	public void setNum1(int num1) {
+		this.num1 = num1;
+	}
 	public Calculadora(int a,int b) {
 		num1 = a;
 		num2 = b;
@@ -47,4 +53,5 @@ public class Calculadora {
 	public String toString() {
 		return "Calculadora [num1=" + num1 + ", num2=" + num2 + "]";
 	}
+	
 }
